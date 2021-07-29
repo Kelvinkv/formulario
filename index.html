@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica formulario HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Practica formulario HTML</h1>
+    </header>
+    
+        <form action="" method="POST"></form>
+        <ul>
+<!-- datos de contacto -->
+    <section>
+            <li><label for="Nombre">Nombre: </label><input type="text" name="nombre"></li>
+            <li><label for="edad">Edad: </label><input type="number"></li>
+            <li><label for="email">Email: </label><input type="email"></li>
+            <li><label for="Password">Contraseña: </label><input type="password"></li>
+    </section>
+<!-- ocupación -->
+    <section>
+            <li><label for="ocupacion">Ocupación: </label>
+                <select name="ocupacion" id="ocupacion">
+                    <option value="vacio"></option>
+                    <option   option value="estudiante">Estudiante</option>
+                    <option value="Profesional">Profesional</option>
+                    <option value="Otro">Otro</option>
+            </select>
+             </li>
+     </section>
+<!-- hora de contacto -->
+     <section>
+             <li><label for="hora_de_contacto">Hora de contacto:</label>
+                <input type="radio" name="hora" value="A la mañana">
+                <label for="mañana">A la mañana</label>               
+                <input type="radio" name="hora" value="Al mediodía">
+                <label for="mediodia">Al mediodia</label>                
+                <input type="radio" name="hora" value="A la tarde">
+                <label for="tarde">A la tarde</label>
+            </li>
+    </section>
+<!-- Comentarios y envios -->   
+    <section>
+            <li>                
+                <label for="comentario">Comentarios: </label> <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10">Comparte tu opinion</textarea>         
+            </li>
+            <li>
+                <label for="informacion">Deseo recibir mas información  </label>
+                <input type="checkbox" name="informacion" id="informacion">
+            </li><br>
+            <li>
+                <input type="submit" value="Enviar datos">
+            </li>
+    </section>
+        </ul>
+        
+   
+
+</body>
+</html>
